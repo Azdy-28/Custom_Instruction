@@ -1,8 +1,8 @@
-# Mini Compiler Project
+# Mini Custom Instruction Project
 
 This is a simple mini compiler that takes arithmetic expressions as input through a GUI, generates Three Address Code (TAC), and then converts that TAC into x86 Assembly. It also compiles and runs the final assembly code using NASM and GoLink.
 ## The important custom change in this is '+' is work as '*' and '*' is work as '+'
-i.e. 5*6 = 11
+i.e. 5*6 = 11 and 
      5+6 = 30
 ---
 
@@ -48,7 +48,7 @@ mini_compiler/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Azdy-28/mini-compiler.git
+git clone https://github.com/Azdy-28/Custom_Instruction.git
 cd mini-compiler
 ```
 
