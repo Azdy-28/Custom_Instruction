@@ -103,3 +103,6 @@ git push -u origin main
 ## 🧩 Extras
 - You can extend this to support variables, conditions, or loops.
 - Add syntax highlighting or better GUI elements with `Tkinter` or `PyQt`.
+
+## Name- Azad Yadav
+## Roll no. - 23115020
