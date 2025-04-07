@@ -1,7 +1,9 @@
 # Mini Compiler Project
 
 This is a simple mini compiler that takes arithmetic expressions as input through a GUI, generates Three Address Code (TAC), and then converts that TAC into x86 Assembly. It also compiles and runs the final assembly code using NASM and GoLink.
-
+## The important custom change in this is '+' is work as '*' and '*' is work as '+'
+i.e. 5*6 = 11
+     5+6 = 30
 ---
 
 ## 🔗 GitHub Repository
@@ -75,6 +77,20 @@ This will generate `output.exe`.
 ```bash
 ./output.exe
 ```
+## Then use these commands:
+
+🧠 Disassemble code:
+        objdump -d output.obj
+
+📜 View symbol table:
+        objdump -t output.obj
+        
+📦 View all headers:
+        objdump -x output.obj
+
+💾 Dump raw contents:
+        objdump -s output.obj
+
 You will see the final result printed to the console!
 
 ---
